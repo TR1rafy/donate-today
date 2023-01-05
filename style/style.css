@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    font-family: 'Inter';
+}
+/* -------------Header section style */
+.header-section{
+   display: block;
+   text-align: center;
+   padding-top: 250px;
+    background:url(../images/donation13.jpg),rgb(60,60,60);
+    background-size: cover;
+    height: 50vh;
+    background-repeat: no-repeat;
+    margin-bottom: 130px;
+ 
+}
+.header-title{
+    color: white;
+    font-weight: 700;
+    font-size: 65px;
+    margin-bottom: 35px;
+
+
+
+}
+.decsription{
+    color: #ffff;
+    margin-bottom: 35px;
+}
+
+.btn-primary{
+    width: 100px;
+    background: #FF5959;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffff;
+    border: 0;
+    margin-top: 40px;
+   
+}
+
+/* ----------------Donate section style-------------- */
+.title{
+    margin-bottom: 20px;
+    font-weight: 700;
+font-size: 45px;
+}
+.donate-decsription{
+    font-family: 'Poppins';
+     color: #707070;
+     font-weight: 400;
+    font-size: 18px;
+}
+.donate-section{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.donate-amount{
+
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+   
+}
+.taka{
+    color: #707070;
+    font-weight: 700;
+    font-size: 30px;
+}
+.two-hundred{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+    font-size: 30px;
+    padding: 40px 20px;
+
+ 
+}
+.other-amount{
+    
+color: #B3B3B3;
+font-weight: 400;
+font-size: 18px;
+margin-top: 60px;
+margin-bottom: 20px;
+}
+/* -------------Donate Plan------------- */
+.donate-plan{
+    display: block;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 70px;
+}
+.plan-div{
+    display: flex;
+    gap: 24px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.food{
+    background: rgba(79, 157, 166, 0.1);
+     border-radius: 5px;
+     padding: 20px 10px;
+}
+.shelter{
+    background: rgba(255, 89, 89, 0.1);
+     border-radius: 5px;
+     padding: 20px 10px;
+}
+.education{
+    background-color: #fff4D6;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+.plan-icon{
+    margin-top: 30px;
+    margin-bottom: 20px;
+
+}
+.plan-title{
+    color: #121212;
+    margin-bottom: 20px;
+    font-weight: 600;
+font-size: 24px;
+}
+.plan-decs{
+    color: #707070;
+    margin: 30px;
+    font-weight: 400;
+font-size: 16px;
+}
