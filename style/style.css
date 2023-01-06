@@ -72,6 +72,21 @@ font-size: 45px;
     color: #707070;
     font-weight: 700;
     font-size: 30px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+.taka:hover{
+    
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #FF5959;
+    font-size: 30px;
+    padding: 40px 20px;
+  
 }
 .two-hundred{
     background: #FFEEEE;
@@ -135,7 +150,81 @@ font-size: 24px;
 }
 .plan-decs{
     color: #707070;
-    margin: 30px;
+   
     font-weight: 400;
-font-size: 16px;
+    font-size: 16px;
+    padding-bottom: 20px;
+    
+}
+/* -------------Donation Section */
+
+.donation-1{
+    display: flex;
+   padding-left: 150px;
+   padding-right: 150px;
+   margin-bottom: 150px;
+   gap: 80px;
+}
+.donation-1 img{
+    width: 480px;
+    height: 300px;
+    border-radius: 5px;
+  
+}
+.contribute-btn{
+    background: #FF5959;
+border-radius: 5px;
+border: 0;
+color: #FFEEEE;
+padding-top: 16px;
+padding-bottom: 16px;
+padding-left: 16px;
+padding-right: 16px;
+
+}
+/* ----------update section--------- */
+.update-decs{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-left: 370px;
+    padding-right: 370px;
+    margin-bottom: 50px;
+
+}
+.update-input{
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 130px;
+    background: #FFF4D6;
+    padding-left: 316px;
+    padding-right: 316px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+#btn{
+    display: inline-block;
+}
+/* ----------footer styles */
+.footer{
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #0B0D17;
+
+}
+.footer-title{
+    font-family: 'Lobster';
+font-style: italic;
+    font-weight: 700;
+font-size: 36px;
+color: #FF5959;
+}
+.last-title{
+    font-weight: 400;
+font-size: 14px;
+color: #FFEEEE;
 }
